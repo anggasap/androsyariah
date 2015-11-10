@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/ANG/Androsyariah/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="menu_admin_array">
+         <item>Ganti Password</item>
+         <item>Settings</item>
+         <item>Logout</item>
+     </string-array>
+    <string-array name="menu_admin_code">
+             <item>ADM_CHGPWD</item>
+             <item>ADM_SETTINGS</item>
+             <item>ADM_LOGOUT</item>
+         </string-array>
+    <string-array name="menu_array">
+  	    <item>Cek Saldo Tabungan</item>
+        <item>Setoran Tabungan</item>
+        <item>Penarikan Tabungan</item>
+        <item>Angsuran</item>
+        <item>Histori</item>
+       
+        <item>Logout</item>
+    </string-array>
+    <string-array name="menu_code">
+        <item>SALDO</item>
+         <item>SETORTABUNGAN</item>
+        <item>TARIKTABUNGAN</item>
+        <item>ANGSURAN</item>
+        <item>HISTORI</item>
+        <item>LOGOUT</item>
+       </string-array>
+    <string name="app_name">MTech Mobile</string>
+    <string name="hello">Hello World!</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="title_angsuran">Detail Angsuran</string>
+    <string name="tombol_batal">Batal</string>
+    <string name="tombol_ok">OK</string>
+    <string name="tombol_simpan">Simpan</string>
+    <!-- From: file:/C:/Users/ANG/Androsyariah/app/src/main/res/values/style.xml -->
+    <eat-comment/>
+    <style name="MyListIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+    <style name="MyStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="MyStyle.dialog">
+		<item name="android:padding">5dp</item>
+    </style>
+    <style name="MyStyle.input">
+    	<item name="android:padding">10dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="MyStyle.label">
+    	<item name="android:paddingTop">10dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="MyStyle.list_menu">
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>    
+   </style>
+    <style name="MyStyle.list_menu.no_icon">
+        <item name="android:paddingLeft">15dp</item>   
+   </style>
+    <style name="MyStyle.list_menu.with_icon">
+        <item name="android:paddingLeft">5dp</item>   
+   </style>
+    <style name="MyStyle.list_menu_label">
+    	<item name="android:paddingTop">22dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="MyStyle.list_menu_label_amount">
+    	<item name="android:paddingTop">22dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+</resources>

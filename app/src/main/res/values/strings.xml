@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">MTech Mobile</string>
+	<string name="tombol_simpan">Simpan</string>
+    <string name="tombol_batal">Batal</string>
+    <string name="tombol_ok">OK</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    
+    <string name="title_angsuran">Detail Angsuran</string>
+    
+   <string-array name="menu_array">
+  	    <item>Cek Saldo Tabungan</item>
+        <item>Setoran Tabungan</item>
+        <item>Penarikan Tabungan</item>
+        <item>Angsuran</item>
+        <item>Histori</item>
+       
+        <item>Logout</item>
+    </string-array>
+
+    <string-array name="menu_code">
+        <item>SALDO</item>
+         <item>SETORTABUNGAN</item>
+        <item>TARIKTABUNGAN</item>
+        <item>ANGSURAN</item>
+        <item>HISTORI</item>
+        <item>LOGOUT</item>
+       </string-array>  
+       
+     <string-array name="menu_admin_array">
+         <item>Ganti Password</item>
+         <item>Settings</item>
+         <item>Logout</item>
+     </string-array>
+     
+         <string-array name="menu_admin_code">
+             <item>ADM_CHGPWD</item>
+             <item>ADM_SETTINGS</item>
+             <item>ADM_LOGOUT</item>
+         </string-array>
+</resources>

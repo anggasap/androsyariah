@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\ANG\Androsyariah\app\src\main\res"><file name="ic_launcher" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="angsuran" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-ldpi\angsuran.png" qualifiers="ldpi-v4" type="drawable"/><file name="cek_saldo_tab" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-ldpi\cek_saldo_tab.png" qualifiers="ldpi-v4" type="drawable"/><file name="change_password" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-ldpi\change_password.png" qualifiers="ldpi-v4" type="drawable"/><file name="histori_trans" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-ldpi\histori_trans.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-ldpi\ic_launcher.png" qualifiers="ldpi-v4" type="drawable"/><file name="logout" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-ldpi\logout.png" qualifiers="ldpi-v4" type="drawable"/><file name="passwd" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-ldpi\passwd.png" qualifiers="ldpi-v4" type="drawable"/><file name="search_button" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-ldpi\search_button.png" qualifiers="ldpi-v4" type="drawable"/><file name="settings" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-ldpi\settings.png" qualifiers="ldpi-v4" type="drawable"/><file name="trans_angsuran" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-ldpi\trans_angsuran.png" qualifiers="ldpi-v4" type="drawable"/><file name="trans_setor_tab" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-ldpi\trans_setor_tab.png" qualifiers="ldpi-v4" type="drawable"/><file name="trans_tarik_tab" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-ldpi\trans_tarik_tab.png" qualifiers="ldpi-v4" type="drawable"/><file name="angsuran" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-mdpi\angsuran.png" qualifiers="mdpi-v4" type="drawable"/><file name="cek_saldo_tab" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-mdpi\cek_saldo_tab.png" qualifiers="mdpi-v4" type="drawable"/><file name="change_password" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-mdpi\change_password.png" qualifiers="mdpi-v4" type="drawable"/><file name="histori_trans" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-mdpi\histori_trans.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="logout" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-mdpi\logout.png" qualifiers="mdpi-v4" type="drawable"/><file name="passwd" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-mdpi\passwd.png" qualifiers="mdpi-v4" type="drawable"/><file name="search_button" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-mdpi\search_button.png" qualifiers="mdpi-v4" type="drawable"/><file name="settings" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-mdpi\settings.png" qualifiers="mdpi-v4" type="drawable"/><file name="trans_angsuran" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-mdpi\trans_angsuran.png" qualifiers="mdpi-v4" type="drawable"/><file name="trans_setor_tab" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-mdpi\trans_setor_tab.png" qualifiers="mdpi-v4" type="drawable"/><file name="trans_tarik_tab" path="C:\Users\ANG\Androsyariah\app\src\main\res\drawable-mdpi\trans_tarik_tab.png" qualifiers="mdpi-v4" type="drawable"/><file name="angsuran_form" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\angsuran_form.xml" qualifiers="" type="layout"/><file name="konfirmasi_transaksi_item" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\konfirmasi_transaksi_item.xml" qualifiers="" type="layout"/><file name="list_view_row_item" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\list_view_row_item.xml" qualifiers="" type="layout"/><file name="login" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\login.xml" qualifiers="" type="layout"/><file name="main" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\main.xml" qualifiers="" type="layout"/><file name="menu_item" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\menu_item.xml" qualifiers="" type="layout"/><file name="parameter_form" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\parameter_form.xml" qualifiers="" type="layout"/><file name="parameter_item" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\parameter_item.xml" qualifiers="" type="layout"/><file name="print_receipt_item" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\print_receipt_item.xml" qualifiers="" type="layout"/><file name="rekening_information" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\rekening_information.xml" qualifiers="" type="layout"/><file name="rekening_item" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\rekening_item.xml" qualifiers="" type="layout"/><file name="search_header" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\search_header.xml" qualifiers="" type="layout"/><file name="transaksi_form" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\transaksi_form.xml" qualifiers="" type="layout"/><file name="translog_info" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\translog_info.xml" qualifiers="" type="layout"/><file name="translog_item" path="C:\Users\ANG\Androsyariah\app\src\main\res\layout\translog_item.xml" qualifiers="" type="layout"/><file path="C:\Users\ANG\Androsyariah\app\src\main\res\values\strings.xml" qualifiers=""><string-array name="menu_array">
+  	    <item>Cek Saldo Tabungan</item>
+        <item>Setoran Tabungan</item>
+        <item>Penarikan Tabungan</item>
+        <item>Angsuran</item>
+        <item>Histori</item>
+       
+        <item>Logout</item>
+    </string-array><string name="title_angsuran">Detail Angsuran</string><string-array name="menu_admin_array">
+         <item>Ganti Password</item>
+         <item>Settings</item>
+         <item>Logout</item>
+     </string-array><string name="tombol_ok">OK</string><string name="app_name">MTech Mobile</string><string-array name="menu_admin_code">
+             <item>ADM_CHGPWD</item>
+             <item>ADM_SETTINGS</item>
+             <item>ADM_LOGOUT</item>
+         </string-array><string-array name="menu_code">
+        <item>SALDO</item>
+         <item>SETORTABUNGAN</item>
+        <item>TARIKTABUNGAN</item>
+        <item>ANGSURAN</item>
+        <item>HISTORI</item>
+        <item>LOGOUT</item>
+       </string-array><string name="tombol_batal">Batal</string><string name="konfirmasi">Konfirmasi</string><string name="hello">Hello World!</string><string name="tombol_simpan">Simpan</string></file><file path="C:\Users\ANG\Androsyariah\app\src\main\res\values\style.xml" qualifiers=""><style name="MyStyle.dialog">
+		<item name="android:padding">5dp</item>
+    </style><style name="MyStyle.list_menu_label">
+    	<item name="android:paddingTop">22dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style><style name="MyStyle.list_menu.no_icon">
+        <item name="android:paddingLeft">15dp</item>   
+   </style><style name="MyStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style><style name="MyStyle.list_menu_label_amount">
+    	<item name="android:paddingTop">22dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style><style name="MyStyle.list_menu">
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>    
+   </style><style name="MyListIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style><style name="MyStyle.label">
+    	<item name="android:paddingTop">10dp</item>
+        <item name="android:textSize">18sp</item>
+    </style><style name="MyStyle.input">
+    	<item name="android:padding">10dp</item>
+        <item name="android:textColor">#000000</item>
+    </style><style name="MyStyle.list_menu.with_icon">
+        <item name="android:paddingLeft">5dp</item>   
+   </style></file></source><source path="C:\Users\ANG\Androsyariah\app\build\generated\res\rs\debug"/><source path="C:\Users\ANG\Androsyariah\app\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\ANG\Androsyariah\app\src\debug\res"/></dataSet><mergedItems/></merger>

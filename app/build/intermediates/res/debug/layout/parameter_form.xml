@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/MyStyle.dialog"
+    
+    >
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+
+<TextView
+android:text="Edit Parameter"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+style="@style/MyStyle.label"
+
+/>
+
+<TextView
+android:text="#"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+style="@style/MyStyle.label"
+android:id="@+id/lbl_parameter_name"
+/>
+
+
+<EditText android:id="@+id/txt_parameter_value" 
+android:layout_width="match_parent" 
+android:layout_height="wrap_content">
+</EditText>
+
+
+
+
+<TableRow >
+<Button android:text="Simpan" 
+android:id="@+id/btn_update_editparameter" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Batal" 
+android:id="@+id/btn_cancel_editparameter" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</Button>
+
+</TableRow>
+
+</TableLayout>
+</LinearLayout>
+<!-- From: file:/C:/Users/ANG/Androsyariah/app/src/main/res/layout/parameter_form.xml -->

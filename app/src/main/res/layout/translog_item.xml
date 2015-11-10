@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal">
+
+<!-- TextView
+ android:id="@+id/transaksi_no_rekening" 
+ android:layout_height="wrap_content"
+ android:layout_width="wrap_content"
+ style="@style/MyStyle.list_menu_label"/-->
+<TextView
+ android:id="@+id/translog_nama_nasabah"
+ android:layout_height="wrap_content"
+ android:layout_width="wrap_content"
+ style="@style/MyStyle.list_menu_label"/>
+<TextView
+ android:id="@+id/translog_tipe_trans"
+ android:layout_height="wrap_content"
+ android:layout_width="wrap_content"
+ style="@style/MyStyle.list_menu_label"/>
+<TextView
+ android:id="@+id/translog_nominal_trans" 
+ android:layout_height="wrap_content"
+ android:layout_width="match_parent"
+ style="@style/MyStyle.list_menu_label_amount"/>
+<TextView
+ android:id="@+id/translog_trans_id"
+ android:layout_height="wrap_content"
+ android:layout_width="wrap_content"
+ android:visibility="invisible"/>
+
+</LinearLayout>

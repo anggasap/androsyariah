@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" >
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+		
+       
+        <RelativeLayout>
+			
+	            <EditText
+	                android:id="@+id/search_nama_nasabah"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:descendantFocusability="beforeDescendants"
+					android:focusableInTouchMode="true"
+					android:singleLine="true"
+	                android:layout_toLeftOf="@+id/btn_search_nama_nasabah" >
+	            </EditText>
+ 		
+            <Button
+                android:id="@+id/btn_search_nama_nasabah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="Cari" />
+       
+       </RelativeLayout>
+    </TableLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/ANG/Androsyariah/app/src/main/res/layout/search_header.xml -->

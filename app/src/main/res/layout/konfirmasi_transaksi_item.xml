@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    style="@style/MyStyle.dialog">
+
+    <TextView  
+		style="@style/MyStyle.label"
+        android:text="Konfirmasi"
+        android:id="@+id/str_konfirmasi"   
+        />  
+        
+    
+</LinearLayout>

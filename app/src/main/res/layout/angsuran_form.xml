@@ -1,0 +1,187 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/MyStyle.dialog"
+    >
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<TextView
+			android:id="@+id/trans_no_rekening_lbl" 
+			android:text="No. Rekening"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			style="@style/MyStyle.label"
+		/>
+
+<RelativeLayout >
+
+
+    <EditText
+        android:id="@+id/trans_no_rekening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btn_rekening_cari" >
+
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/btn_rekening_cari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/search_button"
+        android:text="Cari" />
+</RelativeLayout>
+
+    <TextView
+	android:id="@+id/trans_nama_nasabah_lbl" 
+	android:text="Nama Nasabah"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	style="@style/MyStyle.label"
+/>
+<EditText android:id="@+id/trans_nama_nasabah" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content">
+</EditText>
+
+<TextView android:id="@+id/trans_pokok_lbl" 
+	android:text="Pokok Rp.: "
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@style/MyStyle.label"
+/>
+
+
+<EditText android:id="@+id/trans_pokok" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:singleLine="true"
+	android:digits="1234567890"
+    android:inputType="number">
+</EditText>    
+
+<TextView android:id="@+id/trans_bunga_lbl" 
+	android:text="Margin Rp.: "
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@style/MyStyle.label"
+/>
+
+
+<EditText android:id="@+id/trans_bunga" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:singleLine="true"
+	android:digits="1234567890"
+    android:inputType="number">
+</EditText> 
+
+<TextView android:id="@+id/trans_denda_lbl" 
+	android:text="Denda Rp.: "
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@style/MyStyle.label"
+/>
+
+
+<EditText android:id="@+id/trans_denda" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:singleLine="true"
+	android:digits="1234567890"
+    android:inputType="number">
+</EditText>
+
+    <TextView android:id="@+id/trans_admin_lbl"
+        android:text="Admin Rp.: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MyStyle.label"
+        />
+    <EditText android:id="@+id/trans_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:digits="1234567890"
+        android:inputType="number">
+    </EditText>
+
+    <TextView android:id="@+id/angske_lbl"
+        android:text="Angs ke: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MyStyle.label"
+        />
+    <EditText android:id="@+id/angs_ke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:focusable="false"
+        android:inputType="number"
+        >
+    </EditText>
+    <EditText android:id="@+id/angs_sisa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:focusable="false"
+        android:inputType="number"
+        android:visibility="gone"
+        >
+    </EditText>
+    <!-- start tgl jt-->
+    <TextView android:id="@+id/tgl_jt_lbl"
+        android:text="Tgl JT : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MyStyle.label"
+        />
+    <EditText android:id="@+id/tgl_jt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true">
+    </EditText>
+    <!-- end tgl jt-->
+
+    <TextView android:id="@+id/total_angs_lbl"
+        android:text="Total Angsuran Rp.: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MyStyle.label"
+        />
+    <EditText android:id="@+id/total_angs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:digits="1234567890"
+        android:focusable="false"
+        android:inputType="number">
+    </EditText>
+
+<TableRow >
+<Button android:text="Simpan" 
+android:id="@+id/btn_setor_angsuran_simpan" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Batal" 
+android:id="@+id/btn_setor_angsuran_cancel" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</Button>
+
+</TableRow>
+
+
+
+
+
+</TableLayout>
+</ScrollView>

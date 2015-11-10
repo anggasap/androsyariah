@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/MyStyle.dialog"
+    
+    >
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<TextView
+			android:id="@+id/trans_no_rekening_lbl" 
+			android:text="No. Rekening"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			style="@style/MyStyle.label"
+		/>
+
+<RelativeLayout >
+
+
+    <EditText
+        android:id="@+id/trans_no_rekening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btn_rekening_cari" >
+
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/btn_rekening_cari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/search_button"
+        android:text="Cari" />
+</RelativeLayout>
+
+    <TextView
+	android:id="@+id/trans_nama_nasabah_lbl" 
+	android:text="Nama Nasabah"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	style="@style/MyStyle.label"
+/>
+<EditText android:id="@+id/trans_nama_nasabah" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content">
+</EditText>
+
+    <TextView
+	android:id="@+id/trans_saldo_lbl" 
+	android:text="Saldo Rp.: "
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	style="@style/MyStyle.label"
+/>
+<EditText android:id="@+id/trans_saldo"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+    android:visibility="gone"
+    >
+</EditText>
+    <EditText android:id="@+id/saldotab_aft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        >
+    </EditText>
+
+<TextView android:id="@+id/trans_jumlah_lbl" 
+	android:text="Jumlah Rp.: "
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	style="@style/MyStyle.label"
+/>
+
+
+<EditText android:id="@+id/trans_jumlah" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:singleLine="true"
+	android:digits="1234567890"
+    android:inputType="number">
+</EditText>
+
+<TableRow >
+<Button android:text="Simpan" 
+android:id="@+id/btn_setor_tabungan_simpan" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Batal" 
+android:id="@+id/btn_setor_tabungan_cancel" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</Button>
+
+</TableRow>
+
+
+
+
+
+</TableLayout>
+</LinearLayout>

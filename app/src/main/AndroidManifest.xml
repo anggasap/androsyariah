@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mtm.ksu.mobile.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".LoginActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="Menu Admin"
+            android:name=".AdminMenuActivity" >
+        </activity>
+         <activity
+            android:label="Parameter List"
+            android:name=".ParameterListActivity" >
+        </activity>
+        <activity
+            android:label="Parameter List"
+            android:name=".ParameterEditActivity" >
+        </activity>
+        <activity
+            android:label="Menu Utama"
+            android:name=".MainMenuActivity" >
+        </activity>
+         <activity
+            android:label="Data Rekening"
+            android:name=".RekeningListActivity" >
+        </activity>
+         <activity
+            android:label="Setor Tabungan"
+            android:name=".SetorTabunganActivity" >
+        </activity>
+         <activity
+            android:label="Tarik Tabungan"
+            android:name=".TarikTabunganActivity" >
+        </activity>
+         <activity
+            android:label="Setor Angsuran"
+            android:name=".SetorAngsuranActivity" >
+        </activity>
+         <activity
+            android:label="Cek Saldo Tabungan"
+            android:name=".SaldoTabunganActivity" >
+        </activity>
+        <activity
+            android:label="Histori Transaksi"
+            android:name=".TransLogActivity" >
+        </activity>
+        <activity android:label="Cetak Struk"
+            android:name=".PrintReceiptActivity"></activity>
+        
+
+       
+    </application>
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+        <uses-permission android:name="android.permission.BLUETOOTH" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+</manifest>

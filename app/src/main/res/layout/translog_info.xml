@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MyStyle.dialog"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_height="fill_parent"
+        android:layout_width="match_parent" >
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/transloginfo_type"
+                style="@style/MyStyle.list_menu_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipe Transaksi" />
+
+            <TextView
+                android:id="@+id/transloginfo_no_rekening"
+                style="@style/MyStyle.list_menu_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="No. Rekening" />
+
+            <TextView
+                android:id="@+id/transloginfo_nama_nasabah"
+                style="@style/MyStyle.list_menu_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Nasabah" />
+
+            <TextView
+                android:id="@+id/transloginfo_nominal_transaksi"
+                style="@style/MyStyle.list_menu_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Nilai Transaksi" />
+
+            
+
+            <TableRow >
+
+                <Button
+                    android:id="@+id/info_trx_btn_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tutup" >
+                </Button>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
