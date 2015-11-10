@@ -7,6 +7,7 @@ public class TransactionRequest {
 	private String noRekening;
 	private String namaNasabah;
 	private String jumlahTrans;
+    private String saldoTabAwal;
     private String saldoTabAft;
 	private String imei;
 	
@@ -75,6 +76,12 @@ public class TransactionRequest {
 	public void setJumlahTrans(String jumlahTrans) {
 		this.jumlahTrans = jumlahTrans;
 	}
+    public String getSaldoTabAwal() {
+        return saldoTabAwal;
+    }
+    public void setSaldoTabAwal(String saldoTabAwal) {
+        this.saldoTabAwal = saldoTabAwal;
+    }
     public String getSaldoTabAft() {
         return saldoTabAft;
     }

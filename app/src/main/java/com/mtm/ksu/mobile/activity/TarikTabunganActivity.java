@@ -344,7 +344,7 @@ public class TarikTabunganActivity extends Activity implements
             // put the ListView in the pop up
             alertDialogStores = new AlertDialog.Builder(TarikTabunganActivity.this)
                     .setView(listView)
-                    .setTitle("Search")
+                    .setTitle("Cari ( nama )")
                     .show();
             alertDialogStores.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE|WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM);
         }else{
@@ -389,7 +389,9 @@ public class TarikTabunganActivity extends Activity implements
         request.setNamaPerusahaan(SharedPrefMgr.getCompanyName());
         request.setNamaNasabah(namaNasabahText.getText().toString());
         request.setNoKuitansi(data.getNoKuitansi());
-
+        //saldo awal tabungan
+        String saldoTabAwal = saldoText.getText().toString();
+        request.setSaldoTabAwal(saldoTabAwal);
         //saldo tabungan
         String saldoTabAft = saldoTabAftText.getText().toString();
         request.setSaldoTabAft(saldoTabAft);

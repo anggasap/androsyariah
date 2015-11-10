@@ -15,6 +15,7 @@ public class PrintingMessageFactory {
             receipt = receipt +"Tanggal : "+ model.getTanggalTrans() +"\n";;
             receipt = receipt +"No. Rekening: "+ model.getNoRekening() +"\n";;
             receipt = receipt +"Nama : "+ model.getNamaNasabah() +"\n";;
+            receipt = receipt +"Saldo awal : Rp. "+ model.getSaldoTabAwal() +"\n";;
 
 			jumlahStr = "Jumlah Setoran :";
 			receipt = receipt + jumlahStr +" Rp. "+ model.getJumlahTrans() +"\n";;
@@ -25,7 +26,7 @@ public class PrintingMessageFactory {
             receipt = receipt +"Tanggal : "+ model.getTanggalTrans() +"\n";;
             receipt = receipt +"No. Rekening: "+ model.getNoRekening() +"\n";;
             receipt = receipt +"Nama : "+ model.getNamaNasabah() +"\n";;
-
+            receipt = receipt +"Saldo awal : Rp. "+ model.getSaldoTabAwal() +"\n";;
 			jumlahStr = "Jumlah Penarikan :";
 			receipt = receipt + jumlahStr +" Rp. "+ model.getJumlahTrans() +"\n";;
             receipt = receipt +"Saldo Akhir : Rp. "+ model.getSaldoTabAft() +"\n";;

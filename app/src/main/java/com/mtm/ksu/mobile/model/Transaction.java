@@ -7,6 +7,7 @@ public class Transaction {
 	private String noRekening;
 	private String namaNasabah;
 	private String jumlahTrans;
+    //private String saldoTabAwal;
     private String saldoTabAft;
 	private String serverResponseStatus;
 	private String serverResponseMessage;
@@ -22,8 +23,8 @@ public class Transaction {
 	//log
 	private String transLogId;
 	private String transType;
-	
-	
+
+
 	public String getJumlahPokok() {
 		return jumlahPokok;
 	}

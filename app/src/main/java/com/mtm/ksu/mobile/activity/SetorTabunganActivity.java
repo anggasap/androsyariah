@@ -362,7 +362,7 @@ public class SetorTabunganActivity extends Activity implements
 	        // put the ListView in the pop up
 	        alertDialogStores = new AlertDialog.Builder(SetorTabunganActivity.this)
 		        .setView(listView)
-		        .setTitle("Search")
+		        .setTitle("Cari ( nama )")
 		        .show();
 	        alertDialogStores.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE|WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM);
 		}else{
@@ -408,6 +408,9 @@ public class SetorTabunganActivity extends Activity implements
 		request.setNamaNasabah(namaNasabahText.getText().toString());
 		//no kuitansi
 		request.setNoKuitansi(data.getNoKuitansi());
+        //saldo awal tabungan
+        String saldoTabAwal = saldoText.getText().toString();
+        request.setSaldoTabAwal(saldoTabAwal);
         //saldo tabungan
         String saldoTabAft = saldoTabAftText.getText().toString();
         request.setSaldoTabAft(saldoTabAft);
