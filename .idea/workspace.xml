@@ -50,21 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetorTabunganActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SetorTabunganActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mtm/ksu/mobile/activity/SetorTabunganActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.4934497" vertical-offset="2754" max-vertical-offset="8415">
-              <caret line="371" column="32" selection-start-line="371" selection-start-column="32" selection-end-line="371" selection-end-column="32" />
+            <state vertical-scroll-proportion="-7.607143" vertical-offset="3238" max-vertical-offset="8500">
+              <caret line="256" column="76" selection-start-line="256" selection-start-column="28" selection-end-line="256" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TarikTabunganActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TarikTabunganActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mtm/ksu/mobile/activity/TarikTabunganActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.428571" vertical-offset="4761" max-vertical-offset="8194">
-              <caret line="346" column="37" selection-start-line="346" selection-start-column="37" selection-end-line="346" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.36899564" vertical-offset="2925" max-vertical-offset="8262">
+              <caret line="231" column="65" selection-start-line="231" selection-start-column="65" selection-end-line="231" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -1057,8 +1057,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/mtm/ksu/mobile/request/TransactionRequest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mtm/ksu/mobile/model/Transaction.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mtm/ksu/mobile/common/PrintingMessageFactory.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mtm/ksu/mobile/activity/TarikTabunganActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mtm/ksu/mobile/activity/SetorTabunganActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mtm/ksu/mobile/activity/TarikTabunganActivity.java" />
       </list>
     </option>
   </component>
@@ -2132,18 +2132,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mtm/ksu/mobile/activity/TarikTabunganActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mtm/ksu/mobile/activity/SetorTabunganActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.428571" vertical-offset="4761" max-vertical-offset="8194">
-          <caret line="346" column="37" selection-start-line="346" selection-start-column="37" selection-end-line="346" selection-end-column="37" />
+        <state vertical-scroll-proportion="-7.607143" vertical-offset="3238" max-vertical-offset="8500">
+          <caret line="256" column="76" selection-start-line="256" selection-start-column="28" selection-end-line="256" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mtm/ksu/mobile/activity/SetorTabunganActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mtm/ksu/mobile/activity/TarikTabunganActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.4934497" vertical-offset="2754" max-vertical-offset="8415">
-          <caret line="371" column="32" selection-start-line="371" selection-start-column="32" selection-end-line="371" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.36899564" vertical-offset="2925" max-vertical-offset="8262">
+          <caret line="231" column="65" selection-start-line="231" selection-start-column="65" selection-end-line="231" selection-end-column="65" />
           <folding />
         </state>
       </provider>

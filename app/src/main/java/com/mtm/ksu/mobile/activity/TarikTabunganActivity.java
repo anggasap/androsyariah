@@ -225,6 +225,9 @@ public class TarikTabunganActivity extends Activity implements
                     double saldoTabFmt = Double
                             .parseDouble(saldoTabV);
 
+                    String saldoTabFmtkoma = nf.format(Double
+                        .parseDouble(saldoTabV));
+
                     double saldoAkhir = saldoTabFmt - jumlahSetoranFmtV ;
                     String saldoAkhirFmt = nf.format(saldoAkhir);
                     saldoTabAftText.setText(saldoAkhirFmt);
@@ -234,6 +237,7 @@ public class TarikTabunganActivity extends Activity implements
 
                 String konfirmasiStr = "No. Rekening : " + noRekeningText.getText().toString()
                         + "\n\n" + "Nasabah : " + namaNasabahText.getText().toString()
+                        + "\n\n" + "Saldo Awal : Rp. " + saldoTabFmtkoma
                         + "\n\n" + "Jml Penarikan : Rp. " + jumlahSetoranFmt
                         + "\n\n" + "Saldo Akhir : Rp. " + saldoTabAftStr
                         + "\n\n";

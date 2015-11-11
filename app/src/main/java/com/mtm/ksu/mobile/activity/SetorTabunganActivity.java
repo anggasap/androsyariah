@@ -241,6 +241,10 @@ public class SetorTabunganActivity extends Activity implements
                     double saldoTabFmt = Double
                             .parseDouble(saldoTabV);
 
+                    //String saldoTabFmtkoma = nf.format(saldoTabV);
+                    String saldoTabFmtkoma = nf.format(Double
+                            .parseDouble(saldoTabV));
+
                     double saldoAkhir = jumlahSetoranFmtV + saldoTabFmt;
                     String saldoAkhirFmt = nf.format(saldoAkhir);
                     saldoTabAftText.setText(saldoAkhirFmt);
@@ -250,7 +254,8 @@ public class SetorTabunganActivity extends Activity implements
 
 					String konfirmasiStr = "No. Rekening : " + noRekeningText.getText().toString()
 							+ "\n\n" + "Nasabah : " + namaNasabahText.getText().toString()
-							+ "\n\n" + "Jml Setoran : Rp. " + jumlahSetoranFmt
+                            + "\n\n" + "Saldo Awal : Rp. " + saldoTabFmtkoma
+                            + "\n\n" + "Jml Setoran : Rp. " + jumlahSetoranFmt
                             + "\n\n" + "Saldo Akhir : Rp. " + saldoTabAftStr
 							+ "\n\n";
 
