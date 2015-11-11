@@ -34,5 +34,5 @@ public class Constants {
 	public static String PRINTING_TRANS_TYPE_SETOR_TABUNGAN = "SETOR_TABUNGAN";
 	public static String PRINTING_TRANS_TYPE_TARIK_TABUNGAN = "TARIK_TABUNGAN";
 	public static String PRINTING_TRANS_TYPE_ANGSURAN = "ANGSURAN";
-	
+    public static String PRINTING_TRANS_TYPE_SALDOTAB = "SALDOTAB";
 }

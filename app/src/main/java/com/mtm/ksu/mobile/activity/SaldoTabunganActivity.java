@@ -100,14 +100,14 @@ public class SaldoTabunganActivity extends Activity implements
 
 
 		btnSimpanSetorTabungan = (Button) findViewById(R.id.btn_setor_tabungan_simpan);
-		btnSimpanSetorTabungan.setVisibility(EditText.GONE);
+		btnSimpanSetorTabungan.setText("Print");
 		btnCancelSetorTabungan = (Button) findViewById(R.id.btn_setor_tabungan_cancel);
 		btnCancelSetorTabungan.setText("<< Back");
 		btnCariDataRekening = (ImageButton)findViewById(R.id.btn_rekening_cari);
 		btnInternalSeach = (Button)headerView.findViewById(R.id.btn_search_nama_nasabah);
 		kriteriaText = (EditText)headerView.findViewById(R.id.search_nama_nasabah);
 
-		//btnSimpanSetorTabungan.setOnClickListener(this);
+		btnSimpanSetorTabungan.setOnClickListener(this);
 		btnCancelSetorTabungan.setOnClickListener(this);
 		btnCariDataRekening.setOnClickListener(this);
 		btnInternalSeach.setOnClickListener(this);
@@ -177,7 +177,37 @@ public class SaldoTabunganActivity extends Activity implements
 			showPopUpSearch();
 			
 		}else if(view == btnSimpanSetorTabungan){
-			showKonfirmasiTransaksi();
+
+            TransactionRequest request = new TransactionRequest();
+
+            request.setNoRekening(noRekeningText.getText().toString());
+            NumberFormat nf = NumberFormat.getInstance();
+
+            request.setTanggalTrans(SharedPrefMgr.getTanggalOperasional());
+            request.setTipeTrans(Constants.PRINTING_TRANS_TYPE_SALDOTAB);
+            request.setNamaPerusahaan(SharedPrefMgr.getCompanyName());
+            request.setNamaNasabah(namaNasabahText.getText().toString());
+
+            //saldo tabungan
+            String saldoTabAft = saldoTabAftText.getText().toString();
+            request.setSaldoTabAft(saldoTabAft);
+
+            /*new AlertDialog.Builder(context).setTitle("MTech Mobile")
+                    .setMessage(data.getServerResponseMessage())
+                    .setNeutralButton("TUTUP", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.cancel();
+                        }
+                    }).show();*/
+
+
+            String receipt = PrintingMessageFactory.ReceiptMessage(request);
+            Intent intent = new Intent(context, PrintReceiptActivity.class);
+            intent.putExtra("Receipt", receipt);
+
+            startActivity(intent);
+            finish();
 			
 		}else if (view == btnCancelSetorTabungan){
 			 //kembali ke main menu

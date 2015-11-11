@@ -30,7 +30,13 @@ public class PrintingMessageFactory {
 			jumlahStr = "Jumlah Penarikan :";
 			receipt = receipt + jumlahStr +" Rp. "+ model.getJumlahTrans() +"\n";;
             receipt = receipt +"Saldo Akhir : Rp. "+ model.getSaldoTabAft() +"\n";;
-		}else if(Constants.PRINTING_TRANS_TYPE_ANGSURAN.equals(model.getTipeTrans())){
+		}else if (Constants.PRINTING_TRANS_TYPE_SALDOTAB.equals(model.getTipeTrans())){
+            receipt = receipt +"BUKTI SALDO TAB\n\n";;
+            receipt = receipt +"Tanggal : "+ model.getTanggalTrans() +"\n";;
+            receipt = receipt +"No. Rekening: "+ model.getNoRekening() +"\n";;
+            receipt = receipt +"Nama : "+ model.getNamaNasabah() +"\n";;
+            receipt = receipt +"Saldo Akhir : Rp. "+ model.getSaldoTabAft() +"\n";;
+        }else if(Constants.PRINTING_TRANS_TYPE_ANGSURAN.equals(model.getTipeTrans())){
             receipt = receipt +"BUKTI SETORAN ANGS\n\n";;
             receipt = receipt +"No.Kuitansi:"+ model.getNoKuitansi()+"\n";;
             receipt = receipt +"Tanggal : "+ model.getTanggalTrans() +"\n";;
